@@ -1,0 +1,20 @@
+
+         .model-text{
+            font-family: Montserrat;
+            font-size: 40px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 5px;
+         }
+         .order-text{
+            text-align: center;
+            font-family: Montserrat;
+            color: rgb(143, 138, 138);
+         }
+         .touch-text{
+            text-decoration: underline;
+
+         }
+
+
+

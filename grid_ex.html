@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Grid_Exercise</title>
+      <style>
+         
+         .d-text{
+            display: block;
+           
+         }
+         .e-text{
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 5px;
+            margin-bottom: 10px;
+         }
+         .f-text{
+           width: 200px;
+           
+         }
+         .g-text{
+           width:25px;
+           border-radius:25px;
+         }
+         .i-text{
+           width:150px;
+           margin-top: 0px;
+           color:rgb(96,96,96);
+           
+         }
+         .k-text{
+            width:100px;
+            height: 30px;
+            color :white;
+            background-color:blue ;
+            border:none;
+         }
+         .bird-text{
+            width:200px;
+            
+         }
+         .egg-text{
+            width:200px;
+            height: 149px;
+         }
+         .image-text{
+            width:200px;
+
+         }
+         .fan-text{
+            width:200px;
+         }
+      
+      </style>
+   </head>
+   <body>
+      <div style="display: grid;
+      grid-template-columns:200px 200px 200px;
+      height:100px ;column-gap: 10px;
+      ">
+         <div class="a-text">
+            <div class="b-text">
+               <img class="c-text" src="thumbnails/image_4.jpg">
+            </div>
+            <div class="d-text">
+               <p class="e-text">Oliver</p>
+            </div>
+            <div style="display: grid;
+            grid-template-columns: 35px 1fr;
+            ">
+            <div class="f-text">
+               <img class="g-text" src="thumbnails/image_3.jpeg">
+            </div>
+            <div class="h-text">
+               <p class="i-text"> 2 mutual friends</p>
+            </div>
+         </div>
+            <div>
+               <button class="k-text">
+                Add Friend
+               </button>
+            </div>
+        </div>
+
+        <div class="cat-text">
+            <div class="bird-text">
+               <img class="egg-text" src="thumbnails/image_5.webp">
+            </div>
+            <div class="d-text">
+               <p class="e-text">Mona</p>
+            </div>
+            <div style="display: grid;
+            grid-template-columns: 35px 1fr;
+            ">
+            <div class="f-text">
+               <img class="g-text" src="thumbnails/image_3.jpeg">
+            </div>
+            <div class="h-text">
+               <p class="i-text"> 2 mutual friends</p>
+            </div>
+         </div>
+            <div>
+               <button class="k-text">
+                Add Friend
+               </button>
+            </div>
+         </div>
+
+         <div class="martha-text">
+            <div class="image-text-text">
+               <img class="fan-text" src="thumbnails/image_2.jpg">
+            </div>
+            <div class="d-text">
+               <p class="e-text">Martha</p>
+            </div>
+            <div style="display: grid;
+            grid-template-columns: 35px 1fr;
+            ">
+            <div class="f-text">
+               <img class="g-text" src="thumbnails/image_3.jpeg">
+            </div>
+            <div class="h-text">
+               <p class="i-text"> 2 mutual friends</p>
+            </div>
+         </div>
+            <div>
+               <button class="k-text">
+                Add Friend
+               </button>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

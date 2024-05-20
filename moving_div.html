@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Moving div Exercise</title>
+      <style>
+         #circle{
+            width:100px;
+            height:100px;
+            background-color: red;
+            border-radius: 60%;
+            position:absolute;
+            transform: translate(-50% , -50%);
+
+            
+           
+         }
+      </style>
+
+   </head>
+   <body>
+      <div id="circle"></div>
+      <script>
+         var cicle = document.getElementById("circle");
+         document.addEventListener("mousemove" ,function(e){
+            var X = e.clientX;
+            var Y = e.clientY;
+            circle.style.top = Y + "px";
+            circle.style.left = X + "px";
+         }
+      );
+
+
+      </script>
+   </body>
+</html>  
